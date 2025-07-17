@@ -1,8 +1,16 @@
 import React from 'react';
 
 export default function Add() {
+<<<<<<< HEAD
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
+=======
+
+
+  
+  return (
+    <div className="flex min-h-[calc(100vh-64px)] items-center justify-center bg-gray-50 p-4">
+>>>>>>> trial
       <form className="bg-white p-6 rounded shadow-md w-full max-w-md space-y-4">
         <input
           type="text"
@@ -23,4 +31,8 @@ export default function Add() {
       </form>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> trial

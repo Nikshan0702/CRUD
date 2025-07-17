@@ -1,7 +1,19 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "paths": {
       "@/*": ["./src/*"]
     }
   }
 }
+=======
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
+>>>>>>> trial
