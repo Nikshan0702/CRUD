@@ -8,8 +8,6 @@ export async function GET(){
     await connectMongoDB ();
     const topics = await Topic.find();
     return NextResponse.json({topics})
-<<<<<<< HEAD
-=======
 }
 
 
@@ -32,5 +30,4 @@ export async function GET(request,{params}) {
     NextResponse.json({topic},{status:200});
 
     
->>>>>>> trial
 }
