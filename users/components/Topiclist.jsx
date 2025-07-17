@@ -6,10 +6,11 @@ export default function Topiclist() {
     <div className="p-6 max-w-3xl mx-auto space-y-6">
       {/* Add Button */}
       <div>
-        <Link href="/Add" passHref>
-          <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
-            Add New Topic
-          </button>
+        <Link
+          href="/Add"
+          className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+        >
+          Add New Topic
         </Link>
       </div>
 
@@ -27,9 +28,12 @@ export default function Topiclist() {
           </button>
 
           {/* Edit Link */}
-          {/* <Link href="/edit" passHref>
-            <a className="text-blue-600 hover:underline">Edit</a>
-          </Link> */}
+          <Link
+            href="/Add"
+            className="text-blue-600 hover:underline"
+          >
+            Edit
+          </Link>
         </div>
       </div>
     </div>
