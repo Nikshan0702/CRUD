@@ -1,12 +1,16 @@
 import './globals.css';
 
 
-export default function RootLayout({ children }) {
+
+
+export default function Layout({ children }) {
   return (
     <html lang="en">
-      <body>
-       
-        {children}</body>
+      <body className="flex flex-col min-h-screen">
+        {/* <Header /> */}
+        <main className="flex-grow">{children}</main>
+        {/* <Footer /> */}
+      </body>
     </html>
   );
 }
