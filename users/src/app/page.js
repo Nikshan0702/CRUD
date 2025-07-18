@@ -1,8 +1,7 @@
 
 
-import Topiclist from "../../components/Topiclist";
 
-import Topiclist from "./components/Topiclist";
+import TopicList from "@/components/Topiclist";
 
 
 export default function Home() {
@@ -14,7 +13,7 @@ export default function Home() {
 
   
   
-    <Topiclist/>
+    <TopicList/>
   
   </section>
 
