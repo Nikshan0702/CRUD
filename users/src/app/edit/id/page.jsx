@@ -1,8 +1,5 @@
-import React from 'react'
-import Edit from '../../../../components/Edit'
+import EditForm from '../../../components/EditForm';
 
-export default function edit() {
-  return (
-    <Edit/>
-  )
+export default function EditPage({ params }) {
+  return <EditForm id={params.id} />;
 }
