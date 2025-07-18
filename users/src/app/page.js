@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 
 
 import Topiclist from "../../components/Topiclist";
 
 import Topiclist from "./components/Topiclist";
+=======
+import Topiclist from "../components/Topiclist";
+>>>>>>> trial
 
 
 export default function Home() {
